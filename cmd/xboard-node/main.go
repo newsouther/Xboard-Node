@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cedar2025/xboard-node/internal/config"
-	"github.com/cedar2025/xboard-node/internal/machine"
-	"github.com/cedar2025/xboard-node/internal/nlog"
-	"github.com/cedar2025/xboard-node/internal/service"
+	"github.com/newsouther/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/machine"
+	"github.com/newsouther/xboard-node/internal/nlog"
+	"github.com/newsouther/xboard-node/internal/service"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cedar2025/xboard-node/internal/model"
+	"github.com/newsouther/xboard-node/internal/model"
 	"golang.org/x/time/rate"
 )
 

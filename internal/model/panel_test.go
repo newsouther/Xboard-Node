@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cedar2025/xboard-node/internal/config"
-	"github.com/cedar2025/xboard-node/internal/panel"
+	"github.com/newsouther/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/panel"
 )
 
 func TestNodeSpecFromPanelValidated(t *testing.T) {

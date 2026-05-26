@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cedar2025/xboard-node/internal/config"
-	"github.com/cedar2025/xboard-node/internal/kernel"
-	"github.com/cedar2025/xboard-node/internal/model"
-	"github.com/cedar2025/xboard-node/internal/nlog"
+	"github.com/newsouther/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/kernel"
+	"github.com/newsouther/xboard-node/internal/model"
+	"github.com/newsouther/xboard-node/internal/nlog"
 )
 
 // M is a shorthand for building JSON-like maps
@@ -609,7 +609,7 @@ func applyStreamSettings(base M, nc *model.NodeSpec, tc kernel.TLSCert) {
 }
 
 func buildRealitySettings(nc *model.NodeSpec) M {
-	reality := M{"show": false}
+	reality := M{"show": false, "xver": 1}
 
 	if nc.TLSSettings == nil {
 		return reality

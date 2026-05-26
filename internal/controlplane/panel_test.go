@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cedar2025/xboard-node/internal/config"
-	panelapi "github.com/cedar2025/xboard-node/internal/panel"
+	"github.com/newsouther/xboard-node/internal/config"
+	panelapi "github.com/newsouther/xboard-node/internal/panel"
 )
 
 func TestPanelControlPlaneInitialRejectsInvalidCustomOutbounds(t *testing.T) {

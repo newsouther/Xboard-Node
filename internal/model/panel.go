@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/cedar2025/xboard-node/internal/config"
-	"github.com/cedar2025/xboard-node/internal/panel"
+	"github.com/newsouther/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/panel"
 )
 
 func NodeSpecFromPanel(nc *panel.NodeConfig) *NodeSpec {

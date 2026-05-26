@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cedar2025/xboard-node/internal/config"
-	"github.com/cedar2025/xboard-node/internal/kernel"
-	"github.com/cedar2025/xboard-node/internal/model"
-	"github.com/cedar2025/xboard-node/internal/nlog"
 	"github.com/go-viper/mapstructure/v2"
+	"github.com/newsouther/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/kernel"
+	"github.com/newsouther/xboard-node/internal/model"
+	"github.com/newsouther/xboard-node/internal/nlog"
 )
 
 // M is a shorthand for building JSON-like maps

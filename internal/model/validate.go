@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cedar2025/xboard-node/internal/config"
+	"github.com/newsouther/xboard-node/internal/config"
 )
 
 func ValidateNodeSpec(n *NodeSpec, kcfg config.KernelConfig) error {

@@ -3,7 +3,7 @@ package controlplane
 import (
 	"testing"
 
-	"github.com/cedar2025/xboard-node/internal/model"
+	"github.com/newsouther/xboard-node/internal/model"
 )
 
 func TestNodeMailboxLatestStateAndNotifyCollapse(t *testing.T) {
